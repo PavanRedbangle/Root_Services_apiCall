@@ -1,0 +1,19 @@
+<h1>about component</h1>
+<h1>Here API Call was available click get button</h1>
+<button (click)="getData()" id="get" *ngIf="!datas">get</button>
+<div *ngIf="datas" id="table_data">
+  <table>
+    
+    <th>Id</th>
+    <th>title</th>
+    <th>category</th>
+    <th>Images</th>
+    
+    <tr *ngFor="let product of datas">
+      <td>{{product.id}}</td>
+      <td>{{product.title}}</td>
+      <td>{{product.category}}</td>
+      <td>{{product.image}}</td>
+    </tr>
+  </table>
+</div>

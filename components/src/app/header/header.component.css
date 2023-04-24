@@ -1,0 +1,25 @@
+ul li{
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    line-height: 40px;
+    color:white;
+    margin: 0px 20px;
+    font-style: italic;
+    font-size: 20px;   
+    padding:8px;
+}
+
+ul{
+    display: flex;
+    justify-content:center;
+    gap:40px;
+    background-color: rgb(97, 95, 95);
+    height: 40px;
+}
+.actived{
+    
+    background-color: red;
+}
